@@ -1,11 +1,18 @@
-﻿using RSDotNetClient.Domain;
+﻿using System.Collections.Generic;
+using RSDotNetClient.Domain;
 
 namespace RSDotNetClient.RestClient.Responses
 {
     public class AuthenticationResponse
     {
-        public Token AuthenticationToken { get; set; }
-        public ServiceCatalog ServiceCatalog { get; set; }
+        public Access Access { get; set; }
+    }
+
+    public class Access
+    {
+        public Token Token { get; set; }
+        public List<ServiceCatalog> ServiceCatalog { get; set; }
         public User User { get; set; }
     }
+
 }

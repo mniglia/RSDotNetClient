@@ -50,7 +50,6 @@
     <Compile Include="ServerState.cs" />
     <Compile Include="ServerStatus.cs" />
     <Compile Include="ServiceCatalog.cs" />
-    <Compile Include="ServiceCatalogItem.cs" />
     <Compile Include="Tenant.cs" />
     <Compile Include="Token.cs" />
     <Compile Include="User.cs" />

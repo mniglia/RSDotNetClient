@@ -4,6 +4,9 @@ namespace RSDotNetClient.Domain
 {
     public class ServiceCatalog
     {
-        public List<ServiceCatalogItem> Items { get; set; }
+        public string Name { get; set; }
+        public string Type { get; set; }
+        public List<Endpoint> Endpoints { get; set; }
+        
     }
 }
