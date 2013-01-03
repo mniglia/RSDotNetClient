@@ -5,7 +5,7 @@ using RSDotNetClient.RestClient.Responses;
 
 namespace RSDotNetClient.RestClient.Operations
 {
-    public class ServerOperation
+    public class ServerOperations
     {
         public List<Server> List()
         {
